@@ -1,0 +1,135 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Sans, system-ui, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* NavBar */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #ffffff;
+}
+
+.navLeft img {
+    height: 40px;
+}
+
+.navRight ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navRight ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.dropbtn {
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(144, 144, 144);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.drpDownArrowSvg {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    padding: 12px;
+    display: block;
+    color: black;
+}
+
+.dropdown-content p {
+    margin: 5px 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.loginBtn, .signupBtn {
+    margin-left: 20px;
+}
+
+.loginBtn a, .signupBtn a {
+    padding: 8px 16px;
+    background-color: white;
+    color: #0dba4b;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.signupBtn a {
+    background-color: red;
+    color: white;
+}
+
+
+/* form styles */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.leftContactCont {
+    padding-top: 50px;
+    margin-right: 100px;
+    width: 30%;
+}
+
+.contactItem {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 0.5px solid gray;
+}
+
+.contItemImg {
+    width: 50px;
+    height: 50px;
+}
+
+
+.rightContactCont {
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    padding: 40px;
+    width: 30%;
+}
+
+input {
+    margin-top: 10px !important; 
+    margin-bottom: 10px !important;
+    padding: 5px;
+}
